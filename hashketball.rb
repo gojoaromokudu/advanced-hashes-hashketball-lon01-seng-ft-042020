@@ -226,9 +226,10 @@ def biggest_shoe
   game_hash.each_value do |team|
     team[:players].each do |player|
       if player[:shoe] > biggest_shoe[:shoe]
+         binding.pry
         biggest_shoe_player = player
       end
-      binding.pry
+     
     end
     biggest_shoe_player
     
