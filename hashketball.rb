@@ -233,13 +233,13 @@ def biggest_shoe
       
     end
     biggest_shoe_player
-    binding.pry
+   # binding.pry
   end
  biggest_shoe_player
 end
 
 def big_shoe_rebounds
-  binding.pry
+ # binding.pry
  biggest_shoe[:rebounds]
 
 end
