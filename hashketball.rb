@@ -227,19 +227,14 @@ def biggest_shoe
     team[:players].each do |player|
       # binding.pry
       if player[:shoe] > biggest_shoe_player[:shoe]
-        
         biggest_shoe_player = player
       end
-      
     end
     biggest_shoe_player
-   # binding.pry
   end
  biggest_shoe_player
 end
 
 def big_shoe_rebounds
- # binding.pry
  biggest_shoe[:rebounds]
-
 end
