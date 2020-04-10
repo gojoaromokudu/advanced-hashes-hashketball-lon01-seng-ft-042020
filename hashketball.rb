@@ -208,7 +208,7 @@ def player_stats(player_name)
   player_stats = {}
   
   game_hash.each_value do |team|
-    team[:players].each_value do |player|
+    team[:players].each do |player|
       binding.pry
       if player_name == player[:player_name]
         player_stats = player
