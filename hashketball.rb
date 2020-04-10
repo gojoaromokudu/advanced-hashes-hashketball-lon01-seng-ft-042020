@@ -210,7 +210,8 @@ def player_stats(player_name)
     team[:players].each do |player|
     #  binding.pry
       if player_name == player[:player_name]
-        player_stats = player.delete(:player_name)
+        player.delete(:player_name)
+        player_stats = player
       end
     end
   end
