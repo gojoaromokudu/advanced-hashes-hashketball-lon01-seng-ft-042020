@@ -204,6 +204,15 @@ def player_numbers(team_name)
   jersey_numbers
 end
 
-def player_stats
+def player_stats(player_name)
+  player_stats = {}
   
+  game_hash.each_value do |team|
+    team.each_value do |player|
+      if player_name == player[:player_name]
+        player_stats = player
+      end
+    end
+  end
+  player_stats
 end
