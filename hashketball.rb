@@ -218,6 +218,12 @@ def player_stats(player_name)
   player_stats
 end
 
+def biggest_shoe
+  game_hash.
+end
+
 def big_shoe_rebounds
+  
+  
   
 end
