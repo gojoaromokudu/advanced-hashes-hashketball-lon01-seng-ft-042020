@@ -236,7 +236,7 @@ def biggest_shoe
     binding.pry
   end
 
-  biggest_stats
+ puts biggest_stats
 end
 
 def big_shoe_rebounds
