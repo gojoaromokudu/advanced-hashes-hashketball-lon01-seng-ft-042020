@@ -228,9 +228,10 @@ def biggest_shoe
       if player[:shoe] > biggest_shoe[:shoe]
         biggest_shoe_player = player
       end
+      binding.pry
     end
     biggest_shoe_player
-    binding.pry
+    
   end
 
   biggest_stats
